@@ -11,8 +11,8 @@ class Person(object):  # super class (main).
 class Student(Person):  # inheritance
     def __init__(self, gender, date_of_birth, first_name, other_names, department, course, year_of_study):
         super().__init__(gender, date_of_birth)
-		self.first_name = first_name
-		self.other_names = other_names
+	self.first_name = first_name
+	self.other_names = other_names
         self.department = department
         self.course = course
         self.year_of_study = year_of_study
